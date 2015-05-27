@@ -3,20 +3,25 @@
 <head>
 	<title>Art Project</title>
 	<meta charset="utf-8">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="mega.css">
+		<link rel="stylesheet" href="animate.min.css">
+		<script src="script.js" type="text/javascript"></script>
 	<!-- 	// <script type="text/javascript" src="script.js"></script> -->
 </head>
 
 <body>
+	<h1>Mega Mondrian: An Interactive Art Piece</h1>
+	<div id="wrapper">
 	<div id="painting">
 
 		<div id="top-row">
-			<div id="medium-box" class= "blue right"></div>
+			<div id="medium-box" class= "first blue right"></div>
 			<div id="short-divider1" class= "black right"></div>
-			<div id="wide-box" class= "beige right"></div>
+			<div id="wide-box" class= "beige right wobble"></div>
 			<div id="short-divider2" class= "black right"></div>
-			<div id="medium-box" class= "beige right"></div>
+			<div id="medium-box" class= "second blue right"></div>
 
 			<div id="long-divider" class="black right"></div>
 		</div>
@@ -24,7 +29,7 @@
 		<div id="bottom-right-row">
 			<div id="huge-box" class= "red right"></div>
 			<div id="vertical-divider1" class= "black right"></div>
-			<div id="large-box" class="yellow right"></div>
+			<div id="large-box" class="yellow right flip-container"></div>
 			
 			<div id="horizontal-divider1" class= "black right"></div>
 			<div id="short-box" class="beige right"></div>
@@ -34,16 +39,19 @@
 
 		<div id="bottom-left-row">
 			<div id="vertical-divider2" class= "black right"></div>
-			<div id="medium-box2" class="blue left"></div>
+			<div id="medium-box2" class="beige left"></div>
 			<div id="short-divider3" class="black left"></div>
-			<div id="medium-box3" class="red left"></div>
+			<div id="medium-box3" class="red left wobble"></div>
 			<div id="short-divider4" class="black left"></div>
 			<div id="teeniest-box" class="beige left"></div>
 			<div id="teeniest-divider" class="black left"></div>
-			<div id="teeniest-box2" class="blue left"></div>
+			<div id="teeniest-box2" class="beige left"></div>
 
 		</div>
-
 </div>
+</div>
+
+	<div class="clear-fix"></div>
+	<h3>Choose between three styles to change the layout of Mondrian Art Piece:</h3>
 </body>
 </html>

@@ -3,6 +3,29 @@ body, html {
 /*	background-color: #F7F8E0;*/
 }
 
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	padding: 20px 0 20px 0;
+}
+
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	margin: 0 auto;
+	padding: 120px 0 0 0;
+/*	padding: 20px 0 20px 0;*/
+}
+
+#wrapper {
+	height: 650px;
+	overflow: hidden;
+}
+
+.clear-fix {
+	clear: both;
+}
+
 #painting {
 	background-color: #F7F8E0;
 	box-shadow: 10px 10px 0px #BDBDBD;
@@ -21,7 +44,14 @@ body, html {
 
 	position: relative;
 }
+/*
+#medium-box2 {
+	height: 200px;
+	width: 130px;
 
+	position: relative;
+}
+*/
 #short-divider1 {
 	height: 200px;
 	width: 20px;
