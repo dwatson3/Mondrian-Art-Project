@@ -1,0 +1,199 @@
+body, html {
+	background-color: #f6f6f6;
+/*	background-color: #F7F8E0;*/
+}
+
+#painting {
+	background-color: #F7F8E0;
+	box-shadow: 10px 10px 0px #BDBDBD;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+
+	height: 600px;
+	width: 800px;
+}
+
+/*top row divs start here*/
+#medium-box {
+	height: 200px;
+	width: 130px;
+
+	position: relative;
+}
+
+#short-divider1 {
+	height: 200px;
+	width: 20px;
+}
+
+#wide-box {
+	height: 200px;
+	width: 500px;
+}
+
+#short-divider1 {
+	height: 200px;
+	width: 20px;
+}
+
+#short-divider2 {
+	height: 200px;
+	width: 20px;
+}
+
+#long-divider {
+	height: 20px;
+	width: 800px;
+}
+/*top row divs ended*/
+
+/*bottom right row divs start*/
+#huge-box {
+	height: 380px;
+	width: 300px;
+}
+
+#vertical-divider1 {
+	height: 380px;
+	width: 20px;
+}
+
+#large-box {
+	height: 250px;
+	width: 300px;
+}
+
+#horizontal-divider1 {
+	height: 20px;
+	width: 300px;
+}
+
+#short-box {
+	height: 110px;
+	width: 180px;
+
+	left: 300px;
+	position: relative;
+	top: 20px;
+}
+
+#teeny-divider1 {
+	height: 110px;
+	width: 20px;
+
+	bottom: 90px;
+	position: relative;
+	right: 180px;
+}
+
+#teeny-box {
+	height: 110px;
+	width: 100px;
+
+	position: relative;
+	right: 180px;
+	bottom: 90px;
+}
+/*bottom right row ended*/
+
+/*bottom left row starts*/
+#vertical-divider2 {
+	height: 380px;
+	width: 20px;
+
+	bottom: 360px;
+	position: relative;
+	right: 180px;
+}
+
+#medium-box2 {
+	height: 150px;
+	width: 160px;
+
+	position: relative;
+	bottom: 360px;
+}
+
+#short-divider3 {
+	height: 20px;
+	width: 160px;
+
+	position: relative;
+	bottom: 220px;
+	right: 160px;
+}
+
+#medium-box3 {
+	height: 150px;
+	width: 160px;
+
+	bottom: 220px;
+	position: relative;
+	right: 160px;
+}
+
+#short-divider4 {
+	height: 20px;
+	width: 160px;
+
+	position: relative;
+	bottom: 220px;
+/*	left: 0px;*/
+}
+
+#teeniest-box {
+	height: 50px;
+	width: 80px;
+
+	bottom: 200px;
+	position: relative;
+	right: 80px;
+}
+
+#teeniest-divider {
+	height: 50px;
+	width: 20px;
+
+	bottom: 200px;
+	position: relative;
+	right: 180px;
+}
+
+#teeniest-box2 {
+	height: 50px;
+	width: 60px;
+
+	bottom: 200px;
+	position: relative;
+	right: 260px;
+}
+/*bottom left row ends*/
+
+.red {
+	background-color: #DF0101;
+}
+
+.blue { 
+	background-color: #0000FF; 
+}
+
+.yellow {
+	background-color: #FFFF00;
+}
+
+.black {
+	background-color: #151515;
+}
+
+.beige {
+	background-color: #F7F8E0;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
