@@ -1,7 +1,14 @@
 /*Animation for top left medium box*/
+#painting * {
+  animation-play-state: paused;
+  animation-iteration-count: infinite;
+}
 
-/*#medium-box {*/
-  #medium-box {
+#painting.animate * {
+ animation-play-state: running;
+}
+
+#medium-box {
   height: 200px;
   width: 130px;
 
@@ -10,10 +17,9 @@
   -webkit-animation-duration: 8s;
   animation-name: medium-box;
   animation-duration: 8s;
-  animation-iteration-count: infinite;
+  /*animation-iteration-count: infinite;*/
 }
 
-animation: 3s multicolor;
 @-webkit-keyframes medium-box {
     0% {
         background-color: blue;
@@ -53,10 +59,10 @@ animation: 3s multicolor;
   -webkit-animation-duration: 8s;
   animation-name: wide-box;
   animation-duration: 8s;
-  animation-iteration-count: infinite;
+  /*animation-iteration-count: infinite;*/
 }
 
-animation: 3s multicolor;
+
 @-webkit-keyframes wide-box {
     0% {
         background-color: #F7F8E0;
@@ -96,10 +102,10 @@ animation: 3s multicolor;
   -webkit-animation-duration: 8s;
   animation-name: huge-box;
   animation-duration: 8s;
-  animation-iteration-count: infinite;
+  /*animation-iteration-count: infinite;*/
 }
 
-animation: 3s multicolor;
+
 @-webkit-keyframes huge-box {
     0% {
         background-color: red;
@@ -139,10 +145,10 @@ animation: 3s multicolor;
   -webkit-animation-duration: 8s;
   animation-name: large-box;
   animation-duration: 8s;
-  animation-iteration-count: infinite;
+  /*animation-iteration-count: infinite;*/
 }
 
-animation: 3s multicolor;
+
 @-webkit-keyframes large-box {
     0% {
         background-color: yellow;
@@ -182,10 +188,10 @@ animation: 3s multicolor;
   -webkit-animation-duration: 8s;
   animation-name: medium-box2;
   animation-duration: 8s;
-  animation-iteration-count: infinite;
+  /*animation-iteration-count: infinite;*/
 }
 
-animation: 3s multicolor;
+
 @-webkit-keyframes medium-box2 {
     0% {
         background-color: #F7F8E0;
@@ -226,10 +232,10 @@ animation: 3s multicolor;
   -webkit-animation-duration: 8s;
   animation-name: medium-box3;
   animation-duration: 8s;
-  animation-iteration-count: infinite;
+  /*animation-iteration-count: infinite;*/
 }
 
-animation: 3s multicolor;
+
 @-webkit-keyframes medium-box3 {
     0% {
         background-color: red;
@@ -269,10 +275,10 @@ animation: 3s multicolor;
   -webkit-animation-duration: 8s;
   animation-name: short-box;
   animation-duration: 8s;
-  animation-iteration-count: infinite;
+  /*animation-iteration-count: infinite;*/
 }
 
-animation: 3s multicolor;
+
 @-webkit-keyframes short-box {
     0% {
         background-color: #F7F8E0;
@@ -312,10 +318,10 @@ animation: 3s multicolor;
   -webkit-animation-duration: 8s;
   animation-name: teeny-box;
   animation-duration: 8s;
-  animation-iteration-count: infinite;
+  /*animation-iteration-count: infinite;*/
 }
 
-animation: 3s multicolor;
+
 @-webkit-keyframes teeny-box {
     0% {
         background-color: blue;
@@ -355,10 +361,10 @@ animation: 3s multicolor;
   -webkit-animation-duration: 8s;
   animation-name: teeniest-box;
   animation-duration: 8s;
-  animation-iteration-count: infinite;
+  /*animation-iteration-count: infinite;*/
 }
 
-animation: 3s multicolor;
+
 @-webkit-keyframes teeniest-box {
     0% {
         background-color: #F7F8E0;
@@ -398,10 +404,10 @@ animation: 3s multicolor;
   -webkit-animation-duration: 8s;
   animation-name: teeniest-box2;
   animation-duration: 8s;
-  animation-iteration-count: infinite;
+  /*animation-iteration-count: infinite;*/
 }
 
-animation: 3s multicolor;
+
 @-webkit-keyframes teeniest-box2 {
     0% {
         background-color: #F7F8E0;
