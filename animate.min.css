@@ -18,6 +18,10 @@
   animation-name: wide-box-original;  
 }
 
+#painting.animate-original #medium-box-half {
+  animation-name: medium-box-half-original;  
+}
+
 #painting.animate-original #huge-box {
   animation-name: huge-box-original;
 }
@@ -61,6 +65,10 @@
   animation-name: wide-box-tropical;  
 }
 
+#painting.animate-tropical #medium-box-half {
+  animation-name: medium-box-half-tropical;  
+}
+
 #painting.animate-tropical #huge-box {
   animation-name: huge-box-tropical;
 }
@@ -93,6 +101,12 @@
   animation-name: teeniest-box2-tropical;
 }
 /*painting animation assignment for all tropical theme ends*/
+
+/*painting animation assignment for wild card theme starts*/
+#painting.animate-wild-card #huge-box {
+  animation-name: huge-box-wild-card;
+}
+/*painting animation assignment for wild card theme ends*/
 
 
 #medium-box {
@@ -166,6 +180,43 @@
     }
     100% {
         background-color: #1AEB25;
+    }
+}
+
+#medium-box-half {
+  position: relative;
+  height: 200px;
+  width: 130px;
+  animation-name: medium-box-half;
+}
+
+@keyframes medium-box-half-original {
+   0% {
+        background-color: blue;
+    }
+    33% {
+        background-color: #F7F8E0;
+    }
+    66% {
+        background-color: red;
+    }
+    100% {
+        background-color: blue;
+    }
+}
+
+@keyframes medium-box-half-tropical {
+   0% {
+        background-color: magenta;
+    }
+    33% {
+        background-color: purple;
+    }
+    66% {
+        background-color: goldenrod;
+    }
+    100% {
+        background-color: magenta;
     }
 }
 
@@ -466,5 +517,13 @@
     100% {
         background-color: #F7F8E0;
     }
+}
+
+/*painting animation assignment for wild card theme starts*/
+
+#huge-box-wild-card {
+/*  background-image: url(../img1.jpg) 
+  height: 380px;
+  width: 300px;*/
 }
 

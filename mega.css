@@ -33,7 +33,7 @@ h2 {
 	padding: 10px 0 0 0;
 }
 
-#hella_original, #hella_tropical, #wild_card {
+#hella_original, #hella_tropical, #wild-card {
 	font-size: 16px;
 	margin: 40px;
 	padding: 5px;
@@ -57,7 +57,7 @@ h2 {
 	font-weight: bold;
 }
 
-#wild_card {
+#wild-card {
 	color: #FFF;
 	background-color: #900;
 	border-radius: 4px;
@@ -77,6 +77,14 @@ h2 {
 	width: 800px;
 }
 
+.final {
+	background-image: url("https://www.youtube.com/embed/BpNcmh3rxko");
+	max-width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
 /*top row divs start here*/
 #medium-box {
 	height: 200px;
@@ -93,6 +101,13 @@ h2 {
 #wide-box {
 	height: 200px;
 	width: 500px;
+}
+
+#medium-box-half {
+	height: 200px;
+	width: 130px;
+
+	position: relative;
 }
 
 #short-divider1 {
