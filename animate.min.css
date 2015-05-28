@@ -5,6 +5,7 @@
   animation-duration: 8s;
 }
 
+/*painting animations for all original themed*/
 #painting.animate * {
   animation-play-state: running;
 }
@@ -13,16 +14,90 @@
   animation-name: medium-box-original;  
 }
 
+#painting.animate-original #wide-box {
+  animation-name: wide-box-original;  
+}
+
+#painting.animate-original #huge-box {
+  animation-name: huge-box-original;
+}
+
+#painting.animate-original #large-box {
+  animation-name: large-box-original;
+}
+
+#painting.animate-original #short-box {
+  animation-name: short-box-original;
+}
+
+#painting.animate-original #teeny-box {
+  animation-name: teeny-box-original;
+}
+
+#painting.animate-original #medium-box2 {
+  animation-name: medium-box2-original;
+}
+
+#painting.animate-original #medium-box3 {
+  animation-name: medium-box3-original;
+}
+
+#painting.animate-original #teeniest-box {
+  animation-name: teeniest-box-original;
+}
+
+#painting.animate-original #teeniest-box2 {
+  animation-name: teeniest-box2-original;
+}
+
+
+
+/*painting animations for all tropical themes*/
 #painting.animate-tropical #medium-box {
   animation-name: medium-box-tropical;  
 }
 
+#painting.animate-tropical #wide-box {
+  animation-name: wide-box-tropical;  
+}
+
+#painting.animate-tropical #huge-box {
+  animation-name: huge-box-tropical;
+}
+
+#painting.animate-tropical #large-box {
+  animation-name: large-box-tropical;
+}
+
+#painting.animate-tropical #short-box {
+  animation-name: short-box-tropical;
+}
+
+#painting.animate-tropical #teeny-box {
+  animation-name: teeny-box-tropical;
+}
+
+#painting.animate-tropical #medium-box2 {
+  animation-name: medium-box2-tropical;
+}
+
+#painting.animate-tropical #medium-box3 {
+  animation-name: medium-box3-tropical;
+}
+
+#painting.animate-tropical #teeniest-box {
+  animation-name: teeniest-box-tropical;
+}
+
+#painting.animate-tropical #teeniest-box2 {
+  animation-name: teeniest-box2-tropical;
+}
+
 #medium-box {
   position: relative;
-
   height: 200px;
   width: 130px;
-
+  animation-name: medium-box;
 }
 
 @keyframes medium-box-original {
@@ -42,7 +117,7 @@
 
 @keyframes medium-box-tropical {
    0% {
-        background-color: pink;
+        background-color: magenta;
     }
     33% {
         background-color: purple;
@@ -57,17 +132,12 @@
 
  #wide-box {
   position: relative;
-
   height: 200px;
   width: 500px;
-  
-  animation-name: wide-box;
-  
+  animation-name: wide-box; 
 }
 
-
-
-@keyframes wide-box {
+@keyframes wide-box-original {
    0% {
         background-color: #F7F8E0;
     }
@@ -82,21 +152,29 @@
     }
 }
 
+@keyframes wide-box-tropical {
+   0% {
+        background-color: #1AEB25;
+    }
+    33% {
+        background-color: #F7F8E0;
+    }
+    66% {
+        background-color: #B87333;
+    }
+    100% {
+        background-color: #1AEB25;
+    }
+}
+
  #huge-box {
   height: 380px;
   width: 300px;
-
   position: relative;
-
-  
   animation-name: huge-box;
-  
-
 }
 
-
-
-@keyframes huge-box {
+@keyframes huge-box-original {
    0% {
         background-color: red;
     }
@@ -111,21 +189,29 @@
     }
 }
 
+@keyframes huge-box-tropical {
+   0% {
+        background-color: #00CC99;
+    }
+    33% {
+        background-color: goldenrod;
+    }
+    66% {
+        background-color: #F7F8E0;
+    }
+    100% {
+        background-color: #00CC99;
+    }
+}    
+
 #large-box {
   height: 250px;
   width: 300px;
-
   position: relative;
-
-  
   animation-name: large-box;
-  
-
 }
 
-
-
-@keyframes large-box {
+@keyframes large-box-original {
    0% {
         background-color: yellow;
     }
@@ -140,21 +226,29 @@
     }
 }
 
+@keyframes large-box-tropical {
+   0% {
+        background-color: #F7F8E0;
+    }
+    33% {
+        background-color: #1AEB25;
+    }
+    66% {
+        background-color: #0047AB;
+    }
+    100% {
+        background-color: #F7F8E0;
+    }
+}
+
 #medium-box2 {
   height: 150px;
   width: 160px;
-
   position: relative;
-
-  
   animation-name: medium-box2;
-  
-
 }
 
-
-
-@keyframes medium-box2 {
+@keyframes medium-box2-original {
    0% {
         background-color: #F7F8E0;
     }
@@ -166,6 +260,21 @@
     }
     100% {
         background-color: #2EFEF7;
+    }
+}
+
+@keyframes medium-box2-tropical {
+   0% {
+        background-color: #B87333;
+    }
+    33% {
+        background-color: #0047AB;
+    }
+    66% {
+        background-color: #F7F8E0;
+    }
+    100% {
+        background-color: #B87333;
     }
 }
 
@@ -173,18 +282,11 @@
 #medium-box3 {
   height: 150px;
   width: 160px;
-
   position: relative;
-
-  
   animation-name: medium-box3;
-  
-
 }
 
-
-
-@keyframes medium-box3 {
+@keyframes medium-box3-original {
    0% {
         background-color: red;
     }
@@ -199,21 +301,30 @@
     }
 }
 
-#short-box {
-  height: 110px;
-  width: 180px;
-
-  position: relative;
-
-  
-  animation-name: short-box;
-  
-
+@keyframes medium-box3-tropical {
+   0% {
+        background-color: #1AEB25;
+    }
+    33% {
+        background-color: magenta;
+    }
+    66% {
+        background-color: #F7F8E0;
+    }
+    100% {
+        background-color: #1AEB25;
+    }
 }
 
 
+#short-box {
+  height: 110px;
+  width: 180px;
+  position: relative;
+  animation-name: short-box;
+}
 
-@keyframes short-box {
+@keyframes short-box-original {
    0% {
         background-color: #F7F8E0;
     }
@@ -228,21 +339,29 @@
     }
 }
 
+@keyframes short-box-tropical {
+   0% {
+        background-color: #1AEB25;
+    }
+    33% {
+        background-color: red;
+    }
+    66% {
+        background-color: orange;
+    }
+    100% {
+        background-color: #1AEB25;
+    }
+}
+
 #teeny-box {
   height: 110px;
   width: 100px;
-
   position: relative;
-
-  
   animation-name: teeny-box;
-  
-
 }
 
-
-
-@keyframes teeny-box {
+@keyframes teeny-box-original {
    0% {
         background-color: blue;
     }
@@ -257,19 +376,29 @@
     }
 }
 
+@keyframes teeny-box-tropical {
+   0% {
+        background-color: #F7F8E0;
+    }
+    33% {
+        background-color: #FFBF00;
+    }
+    66% {
+        background-color: magenta;
+    }
+    100% {
+        background-color: #F7F8E0;
+    }
+}
+
 #teeniest-box {
   height: 50px;
   width: 80px;
-
   position: relative;
-
-  
   animation-name: teeniest-box;
-  
-
 }
 
-@keyframes teeniest-box {
+@keyframes teeniest-box-original {
    0% {
         background-color: #F7F8E0;
     }
@@ -284,19 +413,30 @@
     }
 }
 
+@keyframes teeniest-box-tropical {
+   0% {
+        background-color: #FA7D01;
+    }
+    33% {
+        background-color: #F7F8E0;
+    }
+    66% {
+        background-color: #F7F8E0;
+    }
+    100% {
+        background-color: #00CC99;
+    }
+}
+
+
 #teeniest-box2 {
   height: 50px;
   width: 60px;
-
   position: relative;
-
-  
   animation-name: teeniest-box2;
-  
-
 }
 
-@keyframes teeniest-box2 {
+@keyframes teeniest-box2-original {
    0% {
         background-color: #F7F8E0;
     }
@@ -305,6 +445,21 @@
     }
     66% {
         background-color: blue;
+    }
+    100% {
+        background-color: #F7F8E0;
+    }
+}
+
+@keyframes teeniest-box2-tropical {
+   0% {
+        background-color: #F7F8E0;
+    }
+    33% {
+        background-color: #F7F8E0;
+    }
+    66% {
+        background-color: #00CC99;
     }
     100% {
         background-color: #F7F8E0;
