@@ -22,3 +22,11 @@ document.querySelector("#hella_tropical").addEventListener("click", function() {
 	// document.querySelector("#painting").classList.add("animate")
 	painting.classList.add("animate-tropical")
 })
+
+document.querySelector("#wild_card").addEventListener("click", function() {
+// console.log("clicked");
+	painting.className = '' // reset
+	painting.classList.add("animate")
+	// document.querySelector("#painting").classList.add("animate")
+	painting.classList.add("animate-wild_card")
+})

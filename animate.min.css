@@ -5,11 +5,11 @@
   animation-duration: 8s;
 }
 
-/*painting animations for all original themed*/
 #painting.animate * {
   animation-play-state: running;
 }
 
+/*painting animation assignment for all original theme starts*/
 #painting.animate-original #medium-box {
   animation-name: medium-box-original;  
 }
@@ -49,10 +49,10 @@
 #painting.animate-original #teeniest-box2 {
   animation-name: teeniest-box2-original;
 }
+/*painting animation assignment for all original theme ends*/
 
 
-
-/*painting animations for all tropical themes*/
+/*painting animation assignment for all tropical theme starts*/
 #painting.animate-tropical #medium-box {
   animation-name: medium-box-tropical;  
 }
@@ -92,6 +92,8 @@
 #painting.animate-tropical #teeniest-box2 {
   animation-name: teeniest-box2-tropical;
 }
+/*painting animation assignment for all tropical theme ends*/
+
 
 #medium-box {
   position: relative;
