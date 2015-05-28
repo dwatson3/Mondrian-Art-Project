@@ -9,16 +9,23 @@
   animation-play-state: running;
 }
 
+#painting.animate-original #medium-box {
+  animation-name: medium-box-original;  
+}
+
+#painting.animate-tropical #medium-box {
+  animation-name: medium-box-tropical;  
+}
+
 #medium-box {
   position: relative;
 
   height: 200px;
   width: 130px;
 
-  animation-name: medium-box;
 }
 
-@keyframes medium-box {
+@keyframes medium-box-original {
    0% {
         background-color: blue;
     }
@@ -30,6 +37,21 @@
     }
     100% {
         background-color: blue;
+    }
+}
+
+@keyframes medium-box-tropical {
+   0% {
+        background-color: pink;
+    }
+    33% {
+        background-color: purple;
+    }
+    66% {
+        background-color: goldenrod;
+    }
+    100% {
+        background-color: magenta;
     }
 }
 
