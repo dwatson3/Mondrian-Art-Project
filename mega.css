@@ -9,11 +9,11 @@ h1 {
 	padding: 20px 0 20px 0;
 }
 
-h3 {
+h2 {
 	font-family: 'Open Sans', sans-serif;
 	text-align: center;
 	margin: 0 auto;
-	padding: 120px 0 0 0;
+	padding: 60px 0 0 0;
 /*	padding: 20px 0 20px 0;*/
 }
 
@@ -24,6 +24,46 @@ h3 {
 
 .clear-fix {
 	clear: both;
+}
+
+#multiple_buttons {
+	/*margin-left: 200px;*/
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px 0 0 0;
+}
+
+#hella_original, #hella_tropical, #wild_card {
+	font-size: 16px;
+	margin: 40px;
+	padding: 5px;
+}
+
+#hella_original {
+	color: #FFF;
+	background-color: #900;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+	font-weight: bold;
+}
+
+#hella_tropical {
+	color: #FFF;
+	background-color: #900;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+	font-weight: bold;
+}
+
+#wild_card {
+	color: #FFF;
+	background-color: #900;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+	font-weight: bold;
 }
 
 #painting {
@@ -44,14 +84,7 @@ h3 {
 
 	position: relative;
 }
-/*
-#medium-box2 {
-	height: 200px;
-	width: 130px;
 
-	position: relative;
-}
-*/
 #short-divider1 {
 	height: 200px;
 	width: 20px;
@@ -227,3 +260,7 @@ h3 {
 .right {
 	float: right;
 }
+
+/*.active {
+	background-color: #000;
+}*/
