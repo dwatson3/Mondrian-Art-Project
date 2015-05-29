@@ -33,6 +33,15 @@ document.querySelector("#wild-card").addEventListener("click", function() {
 	youtubeVideo();
 })
 
+document.querySelector("#green-thumb").addEventListener("click", function() {
+// console.log("clicked");
+	painting.className = '';
+	painting.classList.add("animate");
+	painting.classList.add("animate-green-thumb");
+	emptyBackgroundImage();
+	emptyVideo();
+})
+
 	// painting.classList.remove("square")[i]
 
 

@@ -1,0 +1,476 @@
+/*Animation for top left medium box*/
+
+/*#medium-box {*/
+/*  #medium-box {
+  height: 200px;
+  width: 130px;
+
+  position: relative;
+  -webkit-animation-name: medium-box;
+  -webkit-animation-duration: 8s;
+  animation-name: medium-box;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+animation: 3s multicolor;
+@-webkit-keyframes medium-box {
+    0% {
+        background-color: blue;
+    }
+    33% {
+        background-color: #F7F8E0;
+    }
+    66% {
+        background-color: red;
+    }
+    100% {
+        background-color: blue;
+    }
+}
+
+@keyframes medium-box {
+   0% {
+        background-color: blue;
+    }
+    33% {
+        background-color: #F7F8E0;
+    }
+    66% {
+        background-color: red;
+    }
+    100% {
+        background-color: blue;
+    }
+}
+
+#medium-box.active {
+  height: 200px;
+  width: 130px;
+
+  position: relative;
+  -webkit-animation-name: medium-box;
+  -webkit-animation-duration: 8s;
+  animation-name: medium-box;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+animation: 3s multicolor;
+@-webkit-keyframes medium-box {
+    0% {
+        background-color: blue;
+    }
+    33% {
+        background-color: #F7F8E0;
+    }
+    66% {
+        background-color: red;
+    }
+    100% {
+        background-color: blue;
+    }
+}
+
+@keyframes medium-box {
+   0% {
+        background-color: blue;
+    }
+    33% {
+        background-color: #F7F8E0;
+    }
+    66% {
+        background-color: red;
+    }
+    100% {
+        background-color: blue;
+    }
+}
+
+ .active {
+  height: 200px;
+  width: 500px;
+
+  position: relative;
+  -webkit-animation-name: wide-box;
+  -webkit-animation-duration: 8s;
+  animation-name: wide-box;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+animation: 3s multicolor;
+@-webkit-keyframes wide-box {
+    0% {
+        background-color: #F7F8E0;
+    }
+    33% {
+        background-color: yellow;
+    }
+    66% {
+        background-color: blue;
+    }
+    100% {
+        background-color: #F7F8E0;
+    }
+}
+
+@keyframes wide-box {
+   0% {
+        background-color: #F7F8E0;
+    }
+    33% {
+        background-color: yellow;
+    }
+    66% {
+        background-color: blue;
+    }
+    100% {
+        background-color: #F7F8E0;
+    }
+}
+
+ #huge-box {
+  height: 380px;
+  width: 300px;
+
+  position: relative;
+  -webkit-animation-name: huge-box;
+  -webkit-animation-duration: 8s;
+  animation-name: huge-box;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+animation: 3s multicolor;
+@-webkit-keyframes huge-box {
+    0% {
+        background-color: red;
+    }
+    33% {
+        background-color: #2EFEF7;
+    }
+    66% {
+        background-color: #F7F8E0;
+    }
+    100% {
+        background-color: red;
+    }
+}
+
+@keyframes huge-box {
+   0% {
+        background-color: red;
+    }
+    33% {
+        background-color: #2EFEF7;
+    }
+    66% {
+        background-color: #F7F8E0;
+    }
+    100% {
+        background-color: red;
+    }
+}
+
+#large-box {
+  height: 250px;
+  width: 300px;
+
+  position: relative;
+  -webkit-animation-name: large-box;
+  -webkit-animation-duration: 8s;
+  animation-name: large-box;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+animation: 3s multicolor;
+@-webkit-keyframes large-box {
+    0% {
+        background-color: yellow;
+    }
+    33% {
+        background-color: red;
+    }
+    66% {
+        background-color: #04B404;
+    }
+    100% {
+        background-color: yellow;
+    }
+}
+
+@keyframes large-box {
+   0% {
+        background-color: yellow;
+    }
+    33% {
+        background-color: red;
+    }
+    66% {
+        background-color: #04B404;
+    }
+    100% {
+        background-color: yellow;
+    }
+}
+
+#medium-box2 {
+  height: 150px;
+  width: 160px;
+
+  position: relative;
+  -webkit-animation-name: medium-box2;
+  -webkit-animation-duration: 8s;
+  animation-name: medium-box2;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+animation: 3s multicolor;
+@-webkit-keyframes medium-box2 {
+    0% {
+        background-color: #F7F8E0;
+    }
+    33% {
+        background-color: blue;
+    }
+    66% {
+        background-color: yellow;
+    }
+    100% {
+        background-color: #2EFEF7;
+    }
+}
+
+@keyframes medium-box2 {
+   0% {
+        background-color: #F7F8E0;
+    }
+    33% {
+        background-color: blue;
+    }
+    66% {
+        background-color: yellow;
+    }
+    100% {
+        background-color: #2EFEF7;
+    }
+}
+
+
+#medium-box3 {
+  height: 150px;
+  width: 160px;
+
+  position: relative;
+  -webkit-animation-name: medium-box3;
+  -webkit-animation-duration: 8s;
+  animation-name: medium-box3;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+animation: 3s multicolor;
+@-webkit-keyframes medium-box3 {
+    0% {
+        background-color: red;
+    }
+    33% {
+        background-color: #F7F8E0;
+    }
+    66% {
+        background-color: red;
+    }
+    100% {
+        background-color: #04B404;
+    }
+}
+
+@keyframes medium-box3 {
+   0% {
+        background-color: red;
+    }
+    33% {
+        background-color: #F7F8E0;
+    }
+    66% {
+        background-color: red;
+    }
+    100% {
+        background-color: #04B404;
+    }
+}
+
+#short-box {
+  height: 110px;
+  width: 180px;
+
+  position: relative;
+  -webkit-animation-name: short-box;
+  -webkit-animation-duration: 8s;
+  animation-name: short-box;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+animation: 3s multicolor;
+@-webkit-keyframes short-box {
+    0% {
+        background-color: #F7F8E0;
+    }
+    33% {
+        background-color: #F7F8E0;
+    }
+    66% {
+        background-color: blue;
+    }
+    100% {
+        background-color: #F7F8E0;
+    }
+}
+
+@keyframes short-box {
+   0% {
+        background-color: #F7F8E0;
+    }
+    33% {
+        background-color: #F7F8E0;
+    }
+    66% {
+        background-color: blue;
+    }
+    100% {
+        background-color: #F7F8E0;
+    }
+}
+
+#teeny-box {
+  height: 110px;
+  width: 100px;
+
+  position: relative;
+  -webkit-animation-name: teeny-box;
+  -webkit-animation-duration: 8s;
+  animation-name: teeny-box;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+animation: 3s multicolor;
+@-webkit-keyframes teeny-box {
+    0% {
+        background-color: blue;
+    }
+    33% {
+        background-color: #F7F8E0;
+    }
+    66% {
+        background-color: orange;
+    }
+    100% {
+        background-color: blue;
+    }
+}
+
+@keyframes teeny-box {
+   0% {
+        background-color: blue;
+    }
+    33% {
+        background-color: #F7F8E0;
+    }
+    66% {
+        background-color: orange;
+    }
+    100% {
+        background-color: blue;
+    }
+}
+
+#teeniest-box {
+  height: 50px;
+  width: 80px;
+
+  position: relative;
+  -webkit-animation-name: teeniest-box;
+  -webkit-animation-duration: 8s;
+  animation-name: teeniest-box;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+animation: 3s multicolor;
+@-webkit-keyframes teeniest-box {
+    0% {
+        background-color: #F7F8E0;
+    }
+    33% {
+        background-color: blue;
+    }
+    66% {
+        background-color: #F7F8E0;
+    }
+    100% {
+        background-color: #F7F8E0;
+    }
+}
+
+@keyframes teeniest-box {
+   0% {
+        background-color: #F7F8E0;
+    }
+    33% {
+        background-color: blue;
+    }
+    66% {
+        background-color: #F7F8E0;
+    }
+    100% {
+        background-color: #F7F8E0;
+    }
+}
+
+#teeniest-box2 {
+  height: 50px;
+  width: 60px;
+
+  position: relative;
+  -webkit-animation-name: teeniest-box2;
+  -webkit-animation-duration: 8s;
+  animation-name: teeniest-box2;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+animation: 3s multicolor;
+@-webkit-keyframes teeniest-box2 {
+    0% {
+        background-color: #F7F8E0;
+    }
+    33% {
+        background-color: red;
+    }
+    66% {
+        background-color: blue;
+    }
+    100% {
+        background-color: #F7F8E0;
+    }
+}
+
+@keyframes teeniest-box2 {
+   0% {
+        background-color: #F7F8E0;
+    }
+    33% {
+        background-color: red;
+    }
+    66% {
+        background-color: blue;
+    }
+    100% {
+        background-color: #F7F8E0;
+    }
+}*/

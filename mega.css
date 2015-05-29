@@ -33,31 +33,13 @@ h2 {
 	padding: 10px 0 0 0;
 }
 
-#hella_original, #hella_tropical, #wild-card {
+#hella_original, #hella_tropical, #green-thumb, #wild-card {
 	font-size: 16px;
 	margin: 40px;
 	padding: 5px;
 }
 
-#hella_original {
-	color: #FFF;
-	background-color: #900;
-	border-radius: 4px;
-	-moz-border-radius: 4px;
-  -webkit-border-radius: 4px;
-	font-weight: bold;
-}
-
-#hella_tropical {
-	color: #FFF;
-	background-color: #900;
-	border-radius: 4px;
-	-moz-border-radius: 4px;
-  -webkit-border-radius: 4px;
-	font-weight: bold;
-}
-
-#wild-card {
+#hella_original, #hella_tropical, #green-thumb, #wild-card {
 	color: #FFF;
 	background-color: #900;
 	border-radius: 4px;
